@@ -2,6 +2,7 @@
 
 :root{
     --primary-color: #3b82f6;
+    --dark-gray: #475569;
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -76,4 +77,25 @@ hr{
 
 .link-active {
     font-weight: bold;
+}
+
+/* header  */
+
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-image{
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+.hero .hero-heading{
+    padding-top: 1rem;
+    color: var(--dark-gray);
+}
+
+.hero .hero-heading .highlighted-text{
+    color: var(--primary-color);
 }
