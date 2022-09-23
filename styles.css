@@ -3,6 +3,7 @@
 :root{
     --primary-color: #3b82f6;
     --dark-gray: #475569;
+    --off-white: #f4f4f5;
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -99,3 +100,18 @@ hr{
 .hero .hero-heading .highlighted-text{
     color: var(--primary-color);
 }
+
+/* section  */
+
+.section{
+    padding: 2rem ;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
