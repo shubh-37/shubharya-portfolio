@@ -50,3 +50,30 @@ hr{
     display: inline;
     padding: 0rem 0.5rem;
 }
+
+/* navigation  */
+
+.navigation{
+    background-color: var(--primary-color);
+    color: aliceblue;
+    padding: 0.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+
+.nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .link{
+    color: aliceblue;
+}
+
+.nav-pills{
+    text-align: right;
+}
+
+.link-active {
+    font-weight: bold;
+}
