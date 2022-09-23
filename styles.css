@@ -29,12 +29,13 @@ hr{
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
+    /* margin: ; */
 }
 
 .link-primary{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
-    color: aliceblue;
+    color: aliceblue;   
 }
 
 .link-secondary{
@@ -85,6 +86,7 @@ hr{
 
 .hero{
     padding: 2rem;
+    padding-top: 4rem;
 }
 
 .hero .hero-image{
@@ -130,6 +132,12 @@ hr{
 .footer .link{
     color: aliceblue;
 }
+
+.footer .footer-heading{
+    font-weight: bold;
+    font-size: large;
+}
+
 .footer ul{
     padding-inline-start: 0px;
 }
